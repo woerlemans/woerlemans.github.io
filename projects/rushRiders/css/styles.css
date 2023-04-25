@@ -1,0 +1,265 @@
+/*colors
+#020f14 background
+#e6e2e1 buttons & text
+#e8b03c acccent colors
+#87a9ac acccent colors and button collar back ground blend 
+opacity 15%, 10%, 8%, 2%, 30%
+*/
+a, a:link, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  color: #e6e2e1;
+  background-color: #020f14;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+/* universal */
+p {
+  color: rgba(230, 226, 225, 0.8);
+}
+
+
+/* header */
+header {
+  background-color: rgba(135, 169, 172, 0.08);
+  margin: 0 auto;
+  padding: 0;
+  max-width: 90%;
+}
+header nav {
+  max-width: 100%;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 2.2rem;
+  margin: 0.5rem 1rem;
+}
+
+header button {
+  background-color: #e6e2e1;
+  display: inline;
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #87a9ac;
+  border-style: none;
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+}
+
+header button:hover {
+  background-color: #87a9ac;
+  color: #e6e2e1;
+}
+
+header button:active {
+  background-color: #87a9ac;
+  color: #e8b03c;
+}
+
+/*tablet*/
+@media only screen and (max-width: 800px) { 
+  header .logo {
+    display: none;
+  }
+  nav .links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links button{
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav .links button {
+    margin: 0;
+    padding: 0.1rem 0.2rem;
+  }
+}
+
+
+
+/* main */
+
+/* mission */
+#mission {
+  background-color: rgba(135, 169, 172, 0.1);
+  margin: 0 auto;
+  padding: 1rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+}
+
+#mission h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+#mission .goal {
+  font-size: 1.5rem;
+  margin: 0.8rem 1rem;
+}
+
+#mission p {
+  line-height: 1.6;
+  margin: 0 1rem;
+}
+
+/* portfolio */
+#portfolio {
+  background-color: rgba(135, 169, 172, 0.1);
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+}
+
+#portfolio .title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem auto;
+}
+
+#portfolio .title p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 0.8rem auto;
+}
+
+/*portfolio .container*/
+#portfolio .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#portfolio .box {
+  margin: 1rem;
+  flex: 1;
+  background-color: rgba(135, 169, 172, 0.2);}
+
+#portfolio .text {
+  line-height: 1.6;
+  width: 18rem;
+  margin: 0 auto;
+}
+
+#portfolio .text h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+#portfolio .images {
+  margin: 0 auto;
+  max-width: 25rem;
+}
+
+#portfolio img {
+  max-width: 100%;
+}
+
+
+/* team */
+#team {
+  background-color: rgba(135, 169, 172, 0.1);
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  
+}
+
+#team h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem auto;
+}
+
+#team .persons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+
+#team .person {
+  width: 18rem;
+  margin: 0 auto;
+  line-height: 1.6;
+  background-color: rgba(135, 169, 172, 0.10);
+}
+
+#team .person h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#team .person img{
+  max-width: 18rem;
+}
+
+/* contact */
+#contact {
+  background-color: rgba(135, 169, 172, 0.1);
+  margin: 0 auto;
+  padding: 2rem 0 7rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+}
+
+
+#contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem auto 2rem;
+}
+
+#contact h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#contact p,
+#contact h3 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* footer */
+footer {
+  background-color: rgba(135, 169, 172, 0.08);
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding: 1rem 0;
+  color: rgba(230, 226, 225, 0.6);
+}
