@@ -1,0 +1,143 @@
+
+
+/* universal */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    line-height: 1.4;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+}
+
+
+/* font sizing general*/
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+h4 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-left: 0.5rem;
+}
+
+/* effects general */
+
+strong {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: disc;
+    list-style: inside;
+}
+
+.marleft {
+    margin-left: 1.5rem;
+}
+
+.comm {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+
+/* header */
+header{
+    background-color: lightgray;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: bold;
+    border-style: hidden;
+    /*background-color: transparent;*/
+}
+
+nav button {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    margin-left: 1.3rem;
+}
+
+/* main */
+main {
+    margin-left: 1.3rem;
+}
+
+/* banner */
+
+/* start */
+.start {
+    margin-left: 0.5rem;
+}
+
+/* early */
+
+.early {
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+/* imgMod */
+
+/* external links */
+.extlinks{
+    margin-top: 1rem;
+}
+
+.extlinks button,
+.button_extlinks {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    height: 5rem;
+    margin: 0.5rem;
+}
+
+
+/* checkboxes h3 */
+
