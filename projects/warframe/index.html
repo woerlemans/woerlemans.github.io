@@ -20,16 +20,18 @@
 <body>
     <header>
         <nav>
-            <a href="./index.html"><button id="logo">Warframe Short Goals</button></a>
-            <div>
-                <button><a href="./tutorial.html">Tutorial</a></button>
-                <button><a href="./earlyGame.html">Early</a></button>
-                <button><a href="./recommendedMods.html">Recommended Mods</a></button>
-                <!--<button><a href="#">Mods List</a></button>-->
-                <!--<button><a href="#">Recommended Weapons</a></button>-->
+            <a id="logo" href="./index.html" hidden>Warframe Short Goals</a> <!-- hidden on main page-->
+            <div class="links"> <!-- later make sidebar-->
+                <a href="./tutorial.html">Tutorial</a>
+                <a href="./earlyGame.html">Early</a>
+                <a href="./recommendedMods.html">Recommended Mods</a>
+                <a href="#">Mods List</a>
+                <a href="#">Recommended Weapons</a>
             </div>
         </nav>
     </header>
+
+
     <main>
         <section class="banner">
             <div class="title">
@@ -37,52 +39,76 @@
             </div>
         </section>
 
-        <section>
+        <section class="checklist">
             <h2>Checklist</h2>
-            <p>Tutorial</p>
-            <p>Join Syndicate: Steel Meridian</p>
-            <p>Companion Taxon: for self healing, drop collecting</p>
+            <div class="marleft">
+                <h3>Start</h3>
+                <div class="marleft">
+                    <p>Tutorial</p>
+                    <p>Join Syndicate: Steel Meridian</p>
+                    <p>Companion Taxon: for self healing, drop collecting</p>
+                </div>
 
-            <h3>Collect beginner weapons:</h3>
-            <p>MK1-Bo (MR0) (melee)</p>
-            <p>Vectis (MR2) (ranged)</p>
-            <p>Lex (MR3) (ranged)</p>
-            <p>Hek (MR4) (ranged)</p>
-            <p>Xoris (MR4) (melee)</p>
-            <p>Atomas (MR5) (ranged)</p>
+                <h3>Collect beginner weapons:</h3>
+                <div class="marleft">
+                    <p>MK1-Bo (MR0) (melee)</p>
+                    <p>Vectis (MR2) (ranged)</p>
+                    <p>Lex (MR3) (ranged)</p>
+                    <p>Hek (MR4) (ranged)</p>
+                    <p>Xoris (MR4) (melee)</p>
+                    <p>Atomas (MR5) (ranged)</p>
+                </div>
 
-            <h3>Standard mods warframe:</h3>
-            <p>Redirection or Vitality</p>
-            <p> Streamline and Fleeting Expertise </p>
-            <p> two of the four: Ability Strength, Duration, Range, and Efficiency</p>
+                <h3>Standard mods warframe:</h3>
+                <div class="marleft">
+                    <p>Redirection or Vitality</p>
+                    <p> Streamline and Fleeting Expertise </p>
+                    <p> two of the four: Ability Strength, Duration, Range, and Efficiency</p>
+                </div>
 
-            <h3>Standard mods Weapons:</h3>
-            <p>Damage increase</p>
-            <p>Multishot</p>
-            <p>2 elements combined: </p>
-            <p class="marleft"> (Electricity + Toxin *+armor -shield) <br> or (Cold + Toxin *+flesh -low level infested)
-                <br> or (Cold + Electricity *+shields -armor) or extra toxin (skips shield of non-boss enemies) </p>
-            <p>Not same elements on all weapons, else you will do no damage in some later missions</p>
+                <h3>Standard mods Weapons:</h3>
+                <div class="marleft">
+                    <p>Damage increase</p>
+                    <p>Multishot</p>
+                    <p>2 elements combined: </p>
+                    <p class="marleft"> (Electricity + Toxin *+armor -shield) <br> or (Cold + Toxin *+flesh -low level
+                        infested)
+                        <br> or (Cold + Electricity *+shields -armor) or extra toxin (skips shield of non-boss enemies)
+                        <br> Not same elements on all weapons, else you will do no damage in some later missions
+                    </p>
+                </div>
 
-            <h2>Goals Better Gear // Platinum</h2>
-            <p>Increase Master Rank levels (higher level needed for newer gear) (increase Master Rank by leveling gear you haven't mastered yet)</p>
-            <p>Collect gear to level Master Rank</p>
-            <p>Join a Clan</p>
-            <p>Get Corrupted Mods (can also be sold for platinum)</p>
-            <p>Complete Nightwave Challenges (Warframe and Weapons storage slots and also some mods)</p>
-            <p>Get OP Prime Gear</p>
-            <p>Increase capacity with Orokin Reactor/Catalyst</p>
-            <p>Increase capacity with Forma</p>
-            <p>Level Mods to fill capactiy</p>
+                <h3>Goals Better Gear // Platinum</h3>
+                <div class="marleft">
+                    <p>Increase Master Rank levels (increase Master Rank by leveling gear you haven't mastered yet)
+                        (higher level needed for newer gear)</p>
+                    <p>Collect gear to level Master Rank</p>
+                    <p>Join a Clan</p>
+                    <p>Get Corrupted Mods (can also be sold for platinum)</p>
+                    <p>Complete Nightwave Challenges (Warframe and Weapons storage slots and also some aura mods)</p>
+                    <p>Get Prime Gear</p>
+                    <p>Increase capacity with Orokin Reactor/Catalyst</p>
+                    <p>Increase capacity with Forma</p>
+                    <p>Level Mods to fill capactiy</p>
+                </div>
 
-            <h3>End Game Goals</h3>
-            <p>Railjack: Create your own spaceship, recruit a squad, and set off across an entirely new Star Chart.</p>
-            <p>Endless Missions: Test your builds by playing endless Survival, Defense, Disruption, and much more.</p>
-            <p>Steel Path: Complete the Star Chart once again in Warframe's version of New Game Plus, complete with unique rewards.</p>
-            <p>Syndicates: Increase your reputation with various open world factions to unlock exclusive weapons and cosmetics.</p>
-            <p>Fashion Frame: Create the best-looking Warframe possible with Warframe's extensive customization options.</p>
-            <p>Trading: Exchange valuable Prime items, mods, and more for Platinum, the game's premium currency.</p>
+                <h3>End Game Goals</h3>
+                <div class="marleft">
+                    <p>Railjack: Create your own spaceship, recruit a squad, and set off across an entirely new Star
+                        Chart.</p>
+                    <p>Endless Missions: Test your builds by playing endless Survival, Defense, Disruption, and much
+                        more.</p>
+                    <p>Steel Path: Complete the Star Chart once again in Warframe's version of New Game Plus, complete
+                        with unique rewards.</p>
+                    <p>Syndicates: Increase your reputation with various open world factions to unlock exclusive weapons
+                        and cosmetics.</p>
+                    <p>Fashion Frame: Create the best-looking Warframe possible with Warframe's extensive customization
+                        options.</p>
+                    <p>Trading: Exchange valuable Prime items, mods, and more for Platinum, the game's premium currency.
+                    </p>
 
+                </div>
+            </div>
         </section>
     </main>
 

@@ -1,4 +1,13 @@
+/*
+styling colors
+https://huemint.com/website-2/#palette=342b20-f8df6e-fefef8-e94d23
 
+#342b20     background
+#f8df6e     text, and background blend
+#fefef8     markup
+#e94d23     markup
+opacity 15%, 10%, 8%, 2%, 30%
+*/
 
 /* universal */
 * {
@@ -8,136 +17,139 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: hsl(33, 24%, 10%);
     line-height: 1.4;
     font-size: 16px;
-    color: white;
+    color: #f8df6e;
     width: 100%;
 }
 
 
-/* font sizing general*/
-h1,
-h2,
-h3,
-h4 {
-    font-weight: bold;
-}
 
+/*header, main {
+    background-color: hsl(33, 24%, 10%);
+}*/
+
+
+/* h1-6 headings */
 h1 {
-    margin-top: 3rem;
     font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 h2 {
-    margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem auto 0.5rem;
 }
 
 h3 {
-    margin-top: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2rem auto 0.5rem
 }
 
 h4 {
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
-}
-
-p {
-    margin-left: 0.5rem;
-}
-
-/* effects general */
-
-strong {
+    font-size: 1.3rem;
     font-weight: bold;
+    margin: 1.5rem auto 0.1rem;
 }
 
-li {
-    list-style-type: disc;
-    list-style: inside;
-}
-
+/* universal class handling */
 .marleft {
-    margin-left: 1.5rem;
+    margin-left: 0.7rem;
 }
 
-.comm {
-    margin-top: 0.5rem;
-    font-style: italic;
-}
+
 
 
 /* header */
-header{
-    background-color: lightgray;
-    font-size: 1.4rem;
-    font-weight: bold;
-    padding: 1rem;
-    width: 100%;
-}
-
 nav {
+    margin: 0 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    border-style: hidden;
-    /*background-color: transparent;*/
 }
 
-nav button {
-    font-size: 1.3rem;
-    padding: 1rem 2rem;
-    margin-left: 1.3rem;
+
+
+nav .links a {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1.3rem;
+    margin: 0.5rem 0.8rem;
+    background-color: rgba(254, 254, 248, 0.2);
 }
 
 /* main */
+
 main {
-    margin-left: 1.3rem;
+    max-width: 80rem;
+    margin: 3rem auto 3rem;
 }
 
-/* banner */
-
-/* start */
-.start {
-    margin-left: 0.5rem;
-}
-
-/* early */
-
-.early {
-    margin-left: 0.5rem;
+main section {
+    margin-left: 0.7rem;
 }
 
 
+/*---------------------------end main page-----------------*/
 
-
-
-
-
-/* imgMod */
-
-/* external links */
-.extlinks{
-    margin-top: 1rem;
-}
-
-.extlinks button,
-.button_extlinks {
+/* buttons */
+main button {
+    display: inline-block;
+    font-size: 1rem;
     font-weight: bold;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    width: 15rem;
-    height: 5rem;
-    margin: 0.5rem;
+    padding: 0.8rem 1.3rem;
+    margin: 0.5rem 0.8rem;
+    color: #f8df6e;
+    background-color: rgba(254, 254, 248, 0.2);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(248, 223, 110, 0.1);
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 
-/* checkboxes h3 */
+.content .boxes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+
+/* anchor buttons main */
+main a {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1.8rem;
+    margin: 0.5rem 0.8rem;
+    background-color: rgba(254, 254, 248, 0.2);
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Warframe guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,57 +14,199 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./icon/LotusFlower.png">
+
 </head>
+
+<body>
     <header>
         <nav>
-            <a href="./index.html"><p id="logo">Warframe Short Goals</p></a>
-            <div>
-                <button><a href="./tutorial.html">Tutorial</a></button>
-                <button><a href="./earlyGame.html">Early</a></button>
-                <button><a href="./recommendedMods.html">Recommended Mods</a></button>
-                <!--<button><a href="#">Mods List</a></button>-->
-                <!--<button><a href="#">Recommended Weapons</a></button>-->
+            <a id="logo" href="./index.html">Warframe Short Goals</a> <!-- hidden on main page-->
+            <div class="links"> <!-- later make sidebar-->
+                <a href="./tutorial.html">Tutorial</a>
+                <a href="./earlyGame.html">Early</a>
+                <a href="./recommendedMods.html">Recommended Mods</a>
+                <a href="#">Mods List</a>
+                <a href="#">Recommended Weapons</a>
             </div>
         </nav>
     </header>
-<body>
 
 
 
-    <section class="guide">
-        <article id="start">
-            <h2>Tutorial</h2>
-            <div class="start">
+
+    <main class="Tutorial">
+        <h1>Tutorial</h1>
+
+        <section id="start">
+            <h2>Basics</h2>
+            <div class="marleft">
                 <h3>Choose beginner warframe</h3>
-                <ul>
-                    <li>Excalibur</li>
-                    <li>Mag</li>
-                    <li>Volt</li>
-                </ul>
-
-                <h3>Weapons</h3>
-                <p><img src="./icon/IconMelee.png" alt=""> Melee => Higher combo more damage, especialy on heavy
-                    attack</p>
-                <p><img src="./icon/IconPrimaryWeaponShotgun.png" alt=""> Ranged => Slain Enemies and containers
-                    drop ammo</p>
-                <p><img src="./icon/IconEnergy.png" alt=""> Energy => slain Enemies drop energy</p>
-                <div class="marleft comm">
-                    <ul>Recommended mods (reduce energy cost) :
-                        <li><strong>Streamline</strong> (mod)</li>
-                        <li><strong>Fleeting Expertise</strong> (mod)</li>
+                <div class="marleft">
+                    <ul>
+                        <li>Excalibur</li>
+                        <li>Mag</li>
+                        <li>Volt</li>
                     </ul>
                 </div>
 
+                <h3>Weapons</h3>
+                <div class="marleft">
+                    <p><img src="./icon/IconMelee.png" alt=""> Melee => Higher combo more damage, especialy on heavy
+                        attack</p>
+                    <p><img src="./icon/IconPrimaryWeaponShotgun.png" alt=""> Ranged => Slain Enemies and containers
+                        drop ammo</p>
+                    <p><img src="./icon/IconEnergy.png" alt=""> Energy => slain Enemies drop energy</p>
+                    <div class="marleft comm">
+                        <ul>Recommended mods (reduce energy cost) :
+                            <li><strong>Streamline</strong> (mod)</li>
+                            <li><strong>Fleeting Expertise</strong> (mod)</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <h3>Movement</h3>
-                <p>Bullet jump => (crouch + jump) or (slide + jump) => Fast forward jump</p>
-                <p>Aim glide => (while in the air + aim) => slower time and glide in the air</p>
+                <div class="marleft">
+                    <p>Bullet jump => (crouch + jump) or (slide + jump) => Fast forward jump</p>
+                    <p>Aim glide => (while in the air + aim) => slower time and glide in the air, increased jumo
+                        distance with glide</p>
+                </div>
             </div>
-        </article>
+        </section>
 
+        <section class="mods">
+            <h2>Mods Tutorial</h2>
+            <div class="marleft">
+                <h4>Mods explained</h4>
+                <div class="marleft">
+                    <img src="./image/mods/Attributes-information.webp" alt="Attributes-information" class="marleft">
+                    <p>1 Name and Effects</p>
+                    <p>2 Item Compatibility, Warframe, Rifle, Shotgun</p>
+                    <p>3 Special Indicator, like Auro, Stance, Exilus, Riven</p>
+                    <p>4 Drain and Polarity symbol, how much capacity is used and if symbol is the same less is used</p>
+                    <p>5 Rank, from 0 to max, cost endo to level up and capacity costs usualy increases on higher rank
+                    </p>
+                    <p>6 Stack/Quantity, number of the same rank and same mod you own</p>
+                    <p>7 Rarity, color of the mod</p>
+                    <br>
+                    <p>Mods can be upgraded by: selecting "fusion" in the mods menu and then paying the needed endo and
+                        credits
+                    </p>
 
+                    <a href="https://warframe.fandom.com/wiki/Mod" target="_blank">Click for more info</a>
+                </div>
 
+                <h4>Ways to increase Capacity</h4>
+                <div class="marleft">
+                    <p>You can increase your mod capacity by leveling the item, installing an Orokin Catalyst or Reactor
+                        in the "Actions" tab, or by installing Forma to add additional polarities. </p>
+                    <p>Orokin Catalyst and Reactors may be purchased from Nora Night in the Nightwave menu, on the
+                        market for 20
+                        platinum and mission like sorties</p>
+                    <p>Forma is a potential reward from opening Void Relics—a system you unlock upon completing the
+                        Earth -> Mars Junction.</p>
+                    <button type="button" class="collapsible">Images</button>
+                    <div class="content">
+                        <div class="boxes">
+                            <figure>
+                                <img src="./image/items/OrokinCatalyst.webp" alt="Orokin Catalyst">
+                                <figcaption>Oroking Catalyst</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="./image/items/OrokinReactor.webp" alt="Orokin Reactor">
+                                <figcaption>Orokin Reactor</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="./image/items/Forma.webp" alt="Forma">
+                                <figcaption>Forma</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <h4>Warframe</h4>
+                <div class="marleft">
+                    <p>First survivability then ability focus and then focus on two of the following: Ability Strength,
+                        Duration, Range, and Efficiency</p>
+                    <p>Recommended: <br> First mods like Redirection (mod) (warframe) or Vitality (mod) (warframe) <br>
+                        Then mods with Ability Efficiency, like Streamline (mod) (warframe) and Fleeting Expertise (mod)
+                        (warframe) <br> And either Ability Strength or Range</p>
+                </div>
+                <h4>Weapons</h4>
+                <div class="marleft">
+                    <p>Start with base damage => multishot => combined elements => status change or critical effects
+                    </p>
+                    <p>Most Primary wepons builds use: Serration, Split Chamber, Infected Clip, and Cryo Rounds (this
+                        creates viral damage)</p>
+                </div>
+
+                <h4 id="elementalMods">Elemtal Mods explained and recommended</h4>
+                <div class="marleft">
+                    <h3>Possible combinations</h3>
+                    <div class="marleft">
+                        <p>When add a mod to a piece of equipment, it starts looking at the top left and goes towards
+                            the top right then one row lower from top left to top right. To decide the order of the
+                            mods. You need to remember this because it will decide when en what is combined. (or you
+                            just check the weapons stats) <br> The first placement location of lets say heat damage is
+                            used when you use another heat damage mod on this equipment. If you put +90% damage heat in
+                            slot 1 then another +xx% damage heat in slot 10 is counted as added damage in slot 1</p>
+                        <br>
+                        <p>The basic elements are: Cold, Electricity, Heat, and Toxin.</p>
+                        <br>
+                        <ul> The combinations are:
+                            <li>Blast = Cold + Heat</li>
+                            <li>Corrosive = Electricity + Toxin</li>
+                            <li>Gas = Heat + Toxin</li>
+                            <li>Magnetic = Cold + Electricity</li>
+                            <li>Radiation = Electricity + Heat</li>
+                            <li>Viral = Cold + Toxin</li>
+                        </ul>
+                    </div>
+
+                    <h3>Recommended Combinations</h3>
+                    <div class="marleft">
+                        <p>Corrosive (Electricity + Toxin) => Strong against armor, weak against shield => Steel Path
+                            enemies, mainly enemies with ferrite armor (Grineer)</p>
+                        <button type="button" class="collapsible">Open Collapsible</button>
+                        <div class="content">
+                            <div class="imgMod marleft"><img src="./image/mods/StormbringerMod.webp" alt="" class="">
+                                <img src="./image/mods/InfectedClipMod.webp" alt="">
+                            </div>
+                        </div>
+                        <p>Viral (Cold + Toxin) + Heat => just about everithing else (except shield)</p>
+                        <button type="button" class="collapsible">Open Collapsible</button>
+                        <div class="content">
+                            <div class="imgMod marleft"><img src="./image/mods/CryoRoundsMod.webp" alt="" class=""> <img
+                                    src="./image/mods/InfectedClipMod.webp" alt=""> <img
+                                    src="./image/mods/HellfireMod.webp" alt=""></div>
+                        </div>
+                        <p>(optional) Magnetic (Cold + Electricity) increase damage to shields, Toxin completely ignores
+                            normal shields (only non-bosses)</p>
+                        <button type="button" class="collapsible">Open Collapsible</button>
+                        <div class="content">
+                            <div class="imgMod marleft"><img src="./image/mods/CryoRoundsMod.webp" alt="" class=""> <img
+                                    src="./image/mods/StormbringerMod.webp" alt=""> <img
+                                    src="./image/mods/InfectedClipMod.webp" alt=""></div>
+                        </div>
+                        <div class="extlinks marleft">
+                            <p>Links:</p>
+
+                            <a href="https://warframe.fandom.com/wiki/Damage/Electricity_Damage"
+                                target="_blank">Electricity</a>
+                            <a href="https://warframe.fandom.com/wiki/Damage/Toxin_Damage" target="_blank">Toxin</a>
+                            <a href="https://warframe.fandom.com/wiki/Damage/Cold_Damage" target="_blank">Cold</a>
+                            <a href="https://warframe.fandom.com/wiki/Damage/Heat_Damage" target="_blank">Heat</a>
+                            <a href="https://warframe.fandom.com/wiki/Damage/Corrosive_Damage"
+                                target="_blank">Corrosive</a>
+                            <a href="https://warframe.fandom.com/wiki/Damage/Viral_Damage" target="_blank">Viral</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 
 </body>
+<script src="./js/script.js"></script>
 
 </html>
