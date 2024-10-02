@@ -2,11 +2,16 @@
 
 <template>
   <header>
-    <div ></div>
+
       <nav>
+
         <RouterLink to="/">Logo</RouterLink>
-        <RouterLink to="/">Home</RouterLink>
+        <div class="nav-divider">
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about">Work</RouterLink>
+        <RouterLink to="/about">Projects</RouterLink>
+        <RouterLink to="/about">Contact</RouterLink>
+        </div>
       </nav>
   </header>
 
@@ -18,4 +23,5 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <style scoped>
+
 </style>
