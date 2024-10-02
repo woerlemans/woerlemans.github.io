@@ -1,39 +1,8 @@
-# woerlemans.github.io
+# Welcome to My Portfolio Website
+After starting my career as a planner at Lidl, I realized my true passion lies in solving the complex, exciting puzzles that technology presents. While helping colleagues, I discovered how much I enjoy working with programs and exploring the world of software development.
 
-This template should help get you started developing with Vue 3 in Vite.
+I’m currently pursuing a Software Engineering degree at Hogeschool van Amsterdam, where I’m building a strong foundation in technology through the HBO-ICT program. In my first year, I mastered HTML, CSS, JavaScript, and TypeScript. Now, in my second year, I’m diving deeper into the world of software, working with Vue and TypeScript for Front-End development, alongside Java, Spring Boot, and Hibernate on the Back-End.
 
-## Recommended IDE Setup
+My enthusiasm for learning and problem-solving drives me to create efficient, innovative solutions. I’m excited to take on new challenges, apply my skills, and bring fresh ideas to your team.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Let’s build something amazing together!
