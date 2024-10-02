@@ -32,6 +32,12 @@ npm run dev
 npm run build
 ```
 
+### deploy to gh-pages branch. This will deploy to the web.
+
+```shell
+nmp run deploy
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
