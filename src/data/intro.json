@@ -1,0 +1,16 @@
+{
+  "english": {
+    "header": "Hello, I am Wesley",
+    "strings" : [
+      "I'm a Software Engineering student at Amsterdam University of Applied Sciences, passionate about solving problems through technology. From front-end to back-end development, I enjoy creating innovative solutions and am excited to share my journey and projects with you.",
+      "Let’s build something great together!"
+    ]
+  },
+  "dutch": {
+    "header": "Hallo, ik ben Wesley",
+    "strings" : [
+      "I'm a Software Engineering student at Hogeschool van Amsterdam, passionate about solving problems through technology. From front-end to back-end development, I enjoy creating innovative solutions and am excited to share my journey and projects with you.",
+      "Let’s build something great together!"
+    ]
+  }
+}

@@ -7,7 +7,8 @@
 
         <RouterLink to="/">Logo</RouterLink>
         <div class="nav-divider">
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="{ name: 'home', hash: '#about' }">About</RouterLink>
+        <RouterLink :to="{ name: 'home', hash: '#skills' }">Skills</RouterLink>
         <RouterLink to="/about">Work</RouterLink>
         <RouterLink to="/about">Projects</RouterLink>
         <RouterLink to="/about">Contact</RouterLink>

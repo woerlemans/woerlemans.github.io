@@ -28,7 +28,10 @@ header nav {
 header nav a {
   display: inline-block;
   padding: 0.8rem;
+}
 
+p {
+  line-height: 1.6rem;
 }
 
 

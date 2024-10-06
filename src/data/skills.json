@@ -1,0 +1,38 @@
+{
+  "javascript": {
+    "name": "Javascript",
+    "image": ""
+  },
+  "typescript": {
+    "name": "Typescript",
+    "image": ""
+  },
+  "vue": {
+    "name": "Vue.js",
+    "image": ""
+  },
+  "java": {
+    "name": "Java",
+    "image": ""
+  },
+  "mysql": {
+    "name": "MySQL",
+    "image": ""
+  },
+  "gitlab": {
+    "name": "Gitlab",
+    "image": ""
+  },
+  "github": {
+    "name": "Github",
+    "image": ""
+  },
+  "figma": {
+    "name": "Figma",
+    "image": ""
+  },
+  "git": {
+    "name": "Git",
+    "image": ""
+  }
+}
